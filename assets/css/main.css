@@ -646,7 +646,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-			background-image: url("../../images/flux.gif");
+		
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -1297,7 +1297,7 @@ input, select, textarea {
 			width: 5.5rem;
 			height: 8.5rem;
 			line-height: 5.5rem;
-		
+
 		}
 
 			#header .logo .icon:before {
