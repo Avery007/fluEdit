@@ -646,7 +646,7 @@ input, select, textarea {
 
 		.image:before {
 			pointer-events: none;
-		
+
 			background-color: rgba(19, 21, 25, 0.5);
 			border-radius: 4px;
 			content: '';
@@ -664,11 +664,11 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, .image.normal{
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.normal img{
 				width: 100%;
 			}
 
@@ -682,6 +682,13 @@ input, select, textarea {
 			float: right;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
+		}
+		.image.normal{
+      display:inline-block;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+			margin: 0 0 2rem 0;
+
 		}
 
 		.image.fit {
